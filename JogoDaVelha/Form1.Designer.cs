@@ -57,6 +57,7 @@
             this.pibReset.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pibReset.TabIndex = 3;
             this.pibReset.TabStop = false;
+            this.pibReset.Click += new System.EventHandler(this.pibReset_Click);
             // 
             // pibSair
             // 
@@ -98,6 +99,7 @@
             this.btn11.Size = new System.Drawing.Size(118, 101);
             this.btn11.TabIndex = 4;
             this.btn11.UseVisualStyleBackColor = true;
+            this.btn11.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn12
             // 
@@ -108,6 +110,7 @@
             this.btn12.Size = new System.Drawing.Size(107, 101);
             this.btn12.TabIndex = 5;
             this.btn12.UseVisualStyleBackColor = true;
+            this.btn12.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn13
             // 
@@ -118,6 +121,7 @@
             this.btn13.Size = new System.Drawing.Size(119, 101);
             this.btn13.TabIndex = 6;
             this.btn13.UseVisualStyleBackColor = true;
+            this.btn13.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn21
             // 
@@ -128,6 +132,7 @@
             this.btn21.Size = new System.Drawing.Size(119, 105);
             this.btn21.TabIndex = 7;
             this.btn21.UseVisualStyleBackColor = true;
+            this.btn21.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn22
             // 
@@ -138,6 +143,7 @@
             this.btn22.Size = new System.Drawing.Size(107, 105);
             this.btn22.TabIndex = 8;
             this.btn22.UseVisualStyleBackColor = true;
+            this.btn22.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn23
             // 
@@ -148,16 +154,18 @@
             this.btn23.Size = new System.Drawing.Size(119, 105);
             this.btn23.TabIndex = 9;
             this.btn23.UseVisualStyleBackColor = true;
+            this.btn23.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn31
             // 
             this.btn31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn31.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn31.Location = new System.Drawing.Point(133, 462);
+            this.btn31.Location = new System.Drawing.Point(132, 462);
             this.btn31.Name = "btn31";
-            this.btn31.Size = new System.Drawing.Size(118, 110);
+            this.btn31.Size = new System.Drawing.Size(119, 110);
             this.btn31.TabIndex = 10;
             this.btn31.UseVisualStyleBackColor = true;
+            this.btn31.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn32
             // 
@@ -168,6 +176,7 @@
             this.btn32.Size = new System.Drawing.Size(107, 110);
             this.btn32.TabIndex = 11;
             this.btn32.UseVisualStyleBackColor = true;
+            this.btn32.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // btn33
             // 
@@ -178,16 +187,18 @@
             this.btn33.Size = new System.Drawing.Size(119, 110);
             this.btn33.TabIndex = 12;
             this.btn33.UseVisualStyleBackColor = true;
+            this.btn33.Click += new System.EventHandler(this.Jogada_Click);
             // 
             // lblInfo
             // 
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Font = new System.Drawing.Font("Times New Roman", 18.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Font = new System.Drawing.Font("Times New Roman", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.ForeColor = System.Drawing.Color.Red;
             this.lblInfo.Location = new System.Drawing.Point(47, 616);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(137, 29);
+            this.lblInfo.Size = new System.Drawing.Size(193, 39);
             this.lblInfo.TabIndex = 13;
-            this.lblInfo.Text = "é a vez do X";
+            this.lblInfo.Text = "É a vez do X";
             // 
             // Form1
             // 
